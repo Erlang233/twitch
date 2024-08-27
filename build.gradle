@@ -1,3 +1,4 @@
+
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.2.5'
@@ -29,7 +30,9 @@ dependencyManagement {
 
 
 dependencies {
+    implementation 'com.github.ben-manes.caffeine:caffeine:3.+'
     implementation 'net.datafaker:datafaker:2.2.2'
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -44,3 +47,4 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
