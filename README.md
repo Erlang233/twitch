@@ -27,8 +27,4 @@ This is a full-stack Spring Boot application that allows users to search Twitch 
 - MySQL database (locally or hosted on AWS RDS)
 - AWS account for deployment (if you want to deploy using AWS App Runner)
 
-### Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/twitch-resource-recommendation.git
-cd twitch-resource-recommendation
